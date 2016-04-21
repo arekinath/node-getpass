@@ -28,7 +28,7 @@ mod_tape.test('get a password', function (t) {
 				t.strictEqual(buf.length, 0);
 				term.removeListener('data', waitPrompt);
 				term.on('data', waitReply);
-				term.write('\n');
+				term.write('\r');
 				term.end();
 			}, 100);
 		}
