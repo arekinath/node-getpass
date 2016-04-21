@@ -1,0 +1,17 @@
+{
+  "name": "getpass",
+  "version": "0.1.0",
+  "description": "getpass for node.js",
+  "main": "lib/index.js",
+  "dependencies": {
+    "assert-plus": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": ">=4.4.0 <5.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*.test.js"
+  },
+  "author": "Alex Wilson <alex.wilson@joyent.com>",
+  "license": "MPL-2.0"
+}
