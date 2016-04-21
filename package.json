@@ -7,7 +7,8 @@
     "assert-plus": "^1.0.0"
   },
   "devDependencies": {
-    "tape": ">=4.4.0 <5.0.0"
+    "tape": "^4.4.0",
+    "pty.js": "^0.3.0"
   },
   "scripts": {
     "test": "tape test/*.test.js"
