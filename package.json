@@ -11,6 +11,10 @@
     "pty.js": "^0.3.0",
     "tape": "^4.4.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arekinath/getpass.git"
+  },
   "scripts": {
     "test": "tape test/*.test.js"
   },
