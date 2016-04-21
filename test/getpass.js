@@ -11,5 +11,4 @@ const mod_getpass = require('../lib/index');
 mod_getpass.getPass(function (err, password) {
 	var pwb64 = (new Buffer(password, 'utf8')).toString('base64');
 	console.log(JSON.stringify({error: err, password: pwb64}));
-	process.exit(0);
 });
