@@ -1,6 +1,6 @@
 {
   "name": "getpass",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "getpass for node.js",
   "main": "lib/index.js",
   "dependencies": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arekinath/getpass.git"
+    "url": "https://github.com/arekinath/node-getpass.git"
   },
   "scripts": {
     "test": "tape test/*.test.js"
