@@ -20,7 +20,7 @@ const mod_getpass = require('getpass');
 Gets a password from the terminal. If available, this uses `/dev/tty` to avoid
 interfering with any data being piped in or out of stdio.
 
-This function prints a prompt (by default `Password:`) and then accepts input
+This function prints a prompt (by default `Password: `) and then accepts input
 without echoing.
 
 Parameters:
