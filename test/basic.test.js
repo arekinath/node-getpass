@@ -20,9 +20,8 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  * IN THE SOFTWARE.
 */
-
 const mod_tape = require('tape');
-const mod_pty = require('pty.js');
+const mod_pty = require('node-pty');
 
 mod_tape.test('get a password', function (t) {
 	var term = mod_pty.spawn('node', ['./test/getpass.js'], {
